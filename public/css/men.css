@@ -1,0 +1,71 @@
+/* Styles */
+body { overflow: hidden; }
+
+.container { width: 810px; background: #000; overflow: hidden; }
+#splash { background: url(../uploads/images/men_splash.jpg); height: 714px; overflow: hidden; }
+#stage { height: 520px; position: relative; }
+#home { background: url(../uploads/images/men_home.jpg); height: 520px; overflow: hidden; position: absolute; }
+h1 { color: #cc3399;
+font-size: 19px;
+text-align: center;
+font-weight: 100;
+text-transform: uppercase;
+padding: 40px 0px 20px 0px; background: url(../img/line.png) no-repeat bottom center;
+letter-spacing: 0.1em; }
+#home p { padding:20px 140px 0px 140px;
+color: #DDD; }
+
+.left { position: absolute; background: url(../img/men_left.png); width: 20px; height: 45px; margin: 350px 0px 0px 50px; cursor: pointer; }
+.right { position: absolute; background: url(../img/men_right.png); width: 20px; height: 45px; margin: 350px 0px 0px 750px; cursor: pointer; }
+
+.products { background: url(../img/men_products_bg.jpg); height: 520px; overflow: hidden; position: absolute; width: 810px; }
+.items { margin: 210px 60px 0px 130px; }
+.item { margin: 0px 5px;
+float: left; cursor: pointer; position: relative; }
+.plus { position: absolute; background: url(../img/plus.png) no-repeat center top; text-align: center; width: 100%; height: 23px; top: 240px; margin-left: 5px; }
+.detail { position: absolute; min-height: 230px; z-index: 100; bottom: -100px;  }
+.box {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #d8eefb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e9c9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#d8eefb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#d8eefb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#d8eefb 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#d8eefb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d8eefb',GradientType=0 ); /* IE6-9 */
+	border: solid 8px #f38120; border-radius: 10px; padding: 10px 20px;
+ }
+.box h2 { color: #f38120; font-size: 16px; text-align: center; line-height: normal; } 
+.box h3 { color: #f38120; font-size: 14px; text-align: center; line-height: normal; }
+.box {  color: #333; text-align: center; font-size: 12px; }
+
+.tt { 
+	border-radius: 5px;
+	color: white;
+	font-size: 11px;
+	position: absolute;
+	white-space: nowrap;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	display: block;
+}
+
+.tt:before {
+	content: " ";
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 30px solid #f38120;
+	position: absolute;
+	left: -55px;
+	margin-top: 100px;
+}
+
+.x { position: absolute; width: 26px; height: 26px; background: url(../img/xmen.png); right: -10px; top: -10px; cursor: pointer; }
+.span3 { padding-top: 0px; }
+#share { margin: 655px 0px 0px 670px;
+width: 130px;
+font-size: 12px;
+color: white;
+text-align: center;
+line-height: 12px; }

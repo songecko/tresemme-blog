@@ -3,3 +3,12 @@
 */logs/!index.html
 */cache/*
 */cache/!index.html
+
+# eclipse
+.externalToolBuilders
+.settings
+.buildpath
+.project
+
+#Others
+.DS_Store

@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+@font-face {  
+  font-family: "Limo";  
+  src: url('../fonts/limo.eot'); /* IE */  
+  src: url('../fonts/limo.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  		 url('../fonts/limo.woff') format('woff'), /* Modern Browsers */
+  	   local("limo.ttf"), url(../fonts/limo.ttf) format("truetype"); /* non-IE */  
+}  
+
+.container { width: 810px; color: #C64B9B; }
+#home { background: url(../img/blog/blog_home_bg.jpg); width: 810px; height: 449px; }
+#menu { margin: 50px 0px 0px 310px; width: 140px; }
+#menu a {
+display: block;
+text-align: center;
+text-transform: uppercase;
+font-size: 18px;
+color: #3E0f2f;
+font-family: Roboto;
+background: url(../img/blog/dark.png) no-repeat 15px 0px;
+opacity: 0.6;
+}
+#menu a:hover { text-decoration: none; color: #C64B9B; background-image: url(../img/blog/shine.png); opacity: 1.0; }
+
+#invita { position: absolute;
+bottom: 50px;
+right: 50px;
+text-align: center;
+width: 130px;
+text-transform: uppercase;
+font-size: 9px;
+font-family: Roboto; }
+
+#blog { background: url(../img/blog/blog_bg.jpg) #3e0f2f no-repeat; width: 810px; }
+#nav { margin: 59px 0px 0px 240px;
+float: left;
+height: 306px;
+background: #7c235a; }
+
+.moda_on { background: url(../img/blog/m_moda.png); width: 114px; height: 100px; display: block; }
+.belleza_on { background: url(../img/blog/m_belleza.png) 0px -109px;
+width: 114px;
+height: 95px;
+display: block; }
+.findesemana_on { background: url(../img/blog/m_findesemana.png) 0px -206px;
+width: 114px;
+height: 100px;
+display: block; }
+.moda_off { background: url(../img/blog/m_findesemana.png); width: 114px; height: 100px; display: block; }
+.belleza_off { background: url(../img/blog/m_findesemana.png) 0px 198px;
+width: 114px;
+height: 95px;
+display: block; }
+.findesemana_off { background: url(../img/blog/m_moda.png) 0px -204px;
+width: 114px;
+height: 103px;
+display: block; }
+
+h1 { font-family: Roboto; font-weight: 300; color: #CB97C4; text-transform: uppercase; opacity: 0.8; margin: 20px 0px; font-size: 32px; }
+#content { width: 420px;
+float: left;
+margin: 66px 0px 0px 22px; }
+
+.post { background: rgba(115, 32, 84,0.9);
+border-radius: 5px;
+padding: 10px 20px; width: 260px; color: white; font-size: 11px; font-family: Roboto; font-weight: 100; line-height: 14px; margin-bottom: 40px; float: left; }
+.post li { line-height: 14px;  }
+
+.post img { border-radius: 20px;
+box-shadow: 1px 1px 20px rgba(0,0,0,0.9);
+border: 3px solid #cb97c4;
+margin-left: -3px; }
+
+h2 { font-size: 19px; font-family: Roboto; font-weight: 100; color: #e8499a; line-height: 20px; }
+small { font-size: 8px; font-family: Roboto; color: #fff; text-transform: uppercase; }
+
+.archivo { float: right; width: 100px; line-height: 10px; }
+
+h3 { font-family: Roboto; color: #e8499a; font-size: 19px; line-height: 40px; font-weight: 100; }
+.archivo a { color: white; font-size: 9px; font-family: Roboto; text-transform: uppercase; line-height: 7px; }
+#share { font-size: 6px; text-transform: uppercase; font-family: Roboto; color: white; text-align: center; width: 100px; float: right; }
+
+#inicio { position: absolute; top: 80px; left: 20px; font-size: 15px; font-weight: 100; font-family: Roboto; text-transform: uppercase;  }
+#inicio a { color: #e8499a; }
+
+#share img { border: none;
+border-radius: 0px;
+box-shadow: none; }

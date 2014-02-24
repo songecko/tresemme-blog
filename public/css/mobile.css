@@ -1,0 +1,42 @@
+body { background: black; }
+.container { width: 320px; }
+#splash { background: url(../uploads/images/women_splash_mobile.jpg); height: 280px; overflow: hidden; }
+#share { margin: 235px 0px 0px 00px;
+font-size: 9px;
+color: #e49fbf;
+text-align: right;
+line-height: 12px;
+padding-left: 160px;
+ }
+ 
+#share p { margin: 0 0 10px 10px;
+float: left }
+#home { background: url(../uploads/images/women_home_mobile.jpg); height: 280px; overflow: hidden; position: absolute; width: 320px; line-height: 12px; }
+h1 { color: #cc3399;
+font-size: 19px;
+text-align: center;
+font-weight: 100;
+text-transform: uppercase;
+padding: 40px 0px 20px 0px; background: url(../img/line.png) no-repeat bottom center;
+letter-spacing: 0.1em; }
+#home p {
+color: #DDD; font-size: 11px; padding: 0px 0px; }
+
+.left { position: absolute; background: url(../img/left.png); width: 20px; height: 45px; margin: 160px 0px 0px 15px; cursor: pointer; display: block }
+.right { position: absolute; background: url(../img/right.png); width: 20px; height: 45px; margin: 160px 0px 0px 285px; cursor: pointer; display: block }
+
+#products { background: url(../img/women_mproducts_bg.jpg); height: 280px; overflow: hidden; position: absolute; width: 320px; line-height: 12px; }
+.item { float: left; display: block; }
+.items  { margin: 40px 0px 0px 30px }
+.plus { position: absolute;
+background: url(../img/plus.png) no-repeat center top;
+text-align: center;
+width: 80px;
+height: 23px;
+top: 230px;
+margin-left: 5px; }
+
+#product { background: url(../img/product_bg.jpg); height: 563px; width: 320px; line-height: 12px; font-size: 11px; overflow: hidden; }
+h2 { color: #cc3399; font-size: 16px; text-align: right; line-height: normal; } 
+h3 { color: #cc3399; font-size: 14px; text-align: right; line-height: normal; }
+.product { text-align: right; color: white; font-size: 12px; }

@@ -1,0 +1,6 @@
+#login { margin: 50px auto; width: 300px; }
+small { font-size: 11px; }
+.delete_btn { background-color: transparent !important; width: 16px !important; height: 16px !important; margin: 0px !important; border: none; }
+
+.delete_form { margin: 0px !important; }
+.table { width: auto !important; }

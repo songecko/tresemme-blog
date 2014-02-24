@@ -1,0 +1,6 @@
+{
+  "require" : {
+    "facebook/php-sdk" : "*",
+    "mobiledetect/mobiledetectlib": "2.7.x"
+  }
+}
