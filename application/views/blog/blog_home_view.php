@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<title><?php echo SITE_NAME ?></title>
+		<meta charset="utf-8" />
 		<?php
 		echo link_tag('public/plugins/bootstrap/css/bootstrap.min.css');
 		echo link_tag('public/css/blog.css');
@@ -59,14 +60,14 @@
 			}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container" id="home">
 			<div id="menu">
-				<?= anchor('blog/moda', img(array('src' => 'public/img/blog/m1.png', 'alt' => '')) . '<br>Moda', '') ?>
-				<?= anchor('blog/belleza', img(array('src' => 'public/img/blog/m2.png', 'alt' => '')) . '<br>Belleza', '') ?>
-				<?= anchor('blog/findesemana', img(array('src' => 'public/img/blog/m3.png', 'alt' => '')) . '<br>Fin de semana', '') ?>
+				<?= anchor('blog/moda', img(array('src' => 'public/img/blog/m1.png', 'alt' => '')) . '<br>OBTÉN EL LOOK', '') ?>
+				<?= anchor('blog/belleza', img(array('src' => 'public/img/blog/m2.png', 'alt' => '')) . '<br>ÚLTIMAS TENDENCIAS', '') ?>
+				<?= anchor('blog/findesemana', img(array('src' => 'public/img/blog/m3.png', 'alt' => '')) . '<br>TREND SPOTTER', '') ?>
 			</div>
 			<div id="invita">
-				Comparte con tus Amigos<br>
+				INVITA A<br> TUS AMIGAS<br>
 				<?= anchor('#', img(array('src' => 'public/img/blog/facebook.png', 'alt' => 'Facebook',)), 'class="fb_share" data-picture="/socialpromos3/public/img/blog/fb-blog.jpg" data-caption="¡Conoce las últimas tendencias en Clear Style Trends! " data-description="Ponte al día con nuevas maneras de vestir, maquillarte y disfrutar tu fin de semana. Sigue a nuestra bloguera invitada todos los lunes, miércoles y viernes en Clear Style Trends."') ?>
-				<?= anchor('https://twitter.com/intent/tweet?text=' . $twitter, img(array('src' => 'public/img/blog/twitter.png', 'alt' => 'Twitter')), 'target="_blank"') ?>
+				<?php /*= anchor('https://twitter.com/intent/tweet?text=' . $twitter, img(array('src' => 'public/img/blog/twitter.png', 'alt' => 'Twitter')), 'target="_blank"') */?>
 			</div>
 		</div>	
 	</div>

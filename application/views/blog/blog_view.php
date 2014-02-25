@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<title><?php echo SITE_NAME ?></title>
+		<meta charset="utf-8" />
 		<?php
 		echo link_tag('public/plugins/bootstrap/css/bootstrap.min.css');
 		echo link_tag('public/css/blog.css');
@@ -57,17 +58,17 @@
 				fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container" id="blog">
-			<div id="nav">
-				<?= anchor('blog/moda/0', '&nbsp;', 'class="' . $moda_class . ' link"') ?>
-				<?= anchor('blog/belleza/0', '&nbsp;', 'class="' . $belleza_class . ' link"') ?>
-				<?= anchor('blog/findesemana/0', '&nbsp;', 'class="' . $findesemana_class . ' link"') ?>
+			<div id="menu">				
+				<?= anchor('blog/moda', img(array('src' => 'public/img/blog/m1.png', 'alt' => '')) . '<br>OBTÉN EL LOOK', 'class="'.$moda_class.'"') ?>
+				<?= anchor('blog/belleza', img(array('src' => 'public/img/blog/m2.png', 'alt' => '')) . '<br>ÚLTIMAS TENDENCIAS', 'class="'.$belleza_class.'"') ?>
+				<?= anchor('blog/findesemana', img(array('src' => 'public/img/blog/m3.png', 'alt' => '')) . '<br>TREND SPOTTER', 'class="'.$findesemana_class.'"') ?>
 			</div>
 			<div id="content">
-				<div id="inicio"><?= anchor('blog', 'Inicio', '') ?></div>
+				<?php /*<div id="inicio"><?= anchor('blog', 'Inicio', '') ?></div>*/?>
 				<h1><?= $header ?></h1>
 				<div class="post">
 					<h2><?= $content->post_title ?></h2>
-					<small><?
+					<small><?php
 						$mes = array("", "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
 
 						$d = date("d", strtotime($content->post_dt));
@@ -80,13 +81,12 @@
 <?= $content->post_content ?>
 					</div>
 					<div id="share">
-						comparte esta entrada<br>
-						<?= anchor('#', img(array('src' => 'public/img/blog/facebook2.png', 'alt' => '')), 'class="fb_share" data-picture="https://webappcloud.net' . get_image($content->post_content) . '" data-caption="' . $content->post_title . '" data-description="' . substr(strip_tags($content->post_content), 0, 200) . '..."') ?>
-<?= anchor('https://twitter.com/intent/tweet?text=' . $twitter, img(array('src' => 'public/img/blog/twitter2.png', 'alt' => '')), 'target="_blank"') ?>
+						COMPARTE<br>
+						<?= anchor('#', img(array('src' => 'public/img/blog/facebook.png', 'alt' => '')), 'class="fb_share" data-picture="https://webappcloud.net' . get_image($content->post_content) . '" data-caption="' . $content->post_title . '" data-description="' . substr(strip_tags($content->post_content), 0, 200) . '..."') ?>
 					</div>
 				</div>
 				<div class="archivo">
-					<h3>Archivo</h3>
+					<h3>ARCHIVO</h3>
 					<?php foreach ($archivo as $a) { ?>
 						<?= anchor('/blog/' . $link . '/' . $a->id, $a->post_title, 'class="link"') ?><br><br>
 <?php } ?>

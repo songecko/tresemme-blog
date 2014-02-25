@@ -52,7 +52,7 @@ class Blog extends CI_Controller {
 		$d['findesemana_class'] = "findesemana_off";
 		$d['content'] = $this->_content(1,$id);
 		$d['archivo'] = $this->_archivo(1);
-		$d['header'] = "Lunes de Moda";
+		$d['header'] = "Obtén el look";
 		$d['link'] = "moda";
 
 		$d['twitter'] = urlencode(str_replace("\t","",html_entity_decode(strip_tags('Conoce las últimas tendencias en Clear Style Trends #Moda #ClearHairCare'),ENT_QUOTES,'UTF-8')));
