@@ -46,7 +46,7 @@
 	</head>
 	<body onload="FB.Canvas.setSize({
 					width: 810,
-					height: 457
+					height: 596
 				})">
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {

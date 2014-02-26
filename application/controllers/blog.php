@@ -78,7 +78,7 @@ class Blog extends CI_Controller {
 		$d['findesemana_class'] = "findesemana_off";
 		$d['content'] = $this->_content(2,$id);
 		$d['archivo'] = $this->_archivo(2);
-		$d['header'] = "Miércoles de Belleza";
+		$d['header'] = "ÚLTIMAS TENDENCIAS";
 		$d['link'] = "belleza";
 
 		$d['twitter'] = urlencode(str_replace("\t","",html_entity_decode(strip_tags('Conoce las últimas tendencias en Clear Style Trends #Belleza #ClearHairCare'),ENT_QUOTES,'UTF-8')));
@@ -101,7 +101,7 @@ class Blog extends CI_Controller {
 		$d['moda_class'] = "moda_off";
 		$d['belleza_class'] = "belleza_off";
 		$d['findesemana_class'] = "findesemana_on";
-		$d['header'] = "Fin de Semana";
+		$d['header'] = "TREND SPOTTER";
 		$d['link'] = "findesemana";
 
 		$d['content'] = $this->_content(3,$id);
