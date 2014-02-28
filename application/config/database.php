@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'webapps366094.db.6332091.hostedresource.com';
-$db['default']['username'] = 'webapps366094';
-$db['default']['password'] = 'FZR97SrD7Qb!';
-$db['default']['database'] = 'webapps366094';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '123456';
+$db['default']['database'] = 'tresemmeblog';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'clear_';
 $db['default']['pconnect'] = TRUE;

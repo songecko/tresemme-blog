@@ -19,6 +19,7 @@
     font-style: normal;
 }
 
+body { }
 .container { width: 810px; color: #FFFFFF; }
 #home { position: relative; background: url(../img/blog/blog_home_bg.jpg); width: 810px; height: 596px; }
 #menu { margin: 68px 0px 0px 257px; width: 160px; }
@@ -46,7 +47,27 @@ opacity: 0.6;
 	line-height: 14px;
 }
 
-#blog { background: url(../img/blog/blog_bg.jpg) #000000 no-repeat; width: 810px; }
+#blog { background: url(../img/blog/blog_bg.jpg) #000000 no-repeat; width: 810px; position:relative; }
+.inicioButton {
+	font-family: 'gothambookregular';
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	position: absolute;
+	left: 118px;
+	top: 14px;
+}
+.policyPrivacy {
+	font-family: 'gothambookregular';
+	font-size: 14px;
+	color: #FFFFFF;
+	position: absolute;
+	left: 18px;
+	bottom: 14px;
+}
+.inicioButton:hover, .policyPrivacy:hover {
+	color: #FFFFFF;
+}
 #nav { margin: 59px 0px 0px 240px;
 float: left;
 height: 306px;
@@ -73,7 +94,7 @@ float: left;
 margin: 66px 0px 0px 10px;}
 
 .post { 
-border-radius: 5px; width: 260px; color: white; font-size: 14px; font-family: 'gothambookregular'; font-weight: 100; line-height: 14px; margin-bottom: 40px; float: left; }
+border-radius: 5px; width: 250px; color: white; font-size: 14px; font-family: 'gothambookregular'; font-weight: 100; line-height: 14px; margin-bottom: 40px; float: left; }
 .post li { line-height: 14px;  }
 
 .post img { }
@@ -81,7 +102,7 @@ border-radius: 5px; width: 260px; color: white; font-size: 14px; font-family: 'g
 h2 { font-size: 19px; font-family: 'gothambookregular'; font-weight: 400; color: #FFFFFF; line-height: 20px; }
 small { font-size: 10px; font-family: 'gothambookregular'; color: #fff; font-weight: 300; text-transform: uppercase; }
 
-.archivo { float: right; width: 100px; line-height: 10px; margin-top: 150px; }
+.archivo { float: right; width: 100px; line-height: 10px; margin-top: 150px; margin-right: 10px; }
 
 h3 { font-family: 'gothambookregular'; color: #AEAEAE; font-size: 19px; line-height: 40px; font-weight: 100; }
 .archivo a { color: #AEAEAE; font-size: 12px; font-family: 'gothambookregular'; line-height: 12px; }

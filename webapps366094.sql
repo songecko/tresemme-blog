@@ -1145,7 +1145,7 @@ CREATE TABLE `clear_users` (
 -- Volcar la base de datos para la tabla `clear_users`
 --
 
-INSERT INTO `clear_users` VALUES(1, 'Administrator', 'admin', 'y3SHC4F0gta');
+INSERT INTO `clear_users` VALUES(1, 'Administrator', 'admin', '123456');
 INSERT INTO `clear_users` VALUES(2, 'Alexis Cruz', 'acruz', 's1lkonect');
 INSERT INTO `clear_users` VALUES(3, 'Alina Villaverde', 'alina', 'avav7474');
 INSERT INTO `clear_users` VALUES(4, 'Arco Publicidad', 'Arco', 'abc@123');

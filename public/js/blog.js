@@ -6,22 +6,22 @@ function postToFeed(pic,name,desc,method) {
 	if (!isIE) { 
 	  var obj = {
 	    method: method,
-	    redirect_uri: 'https://webappcloud.net/apps/clear/quiz',
-	    link: 'https://www.facebook.com/pages/Clear-Hair-PR/272720309524227?sk=app_446655105415466',
+	    redirect_uri: 'http://dsocialcrowd.com/socialpromos4/tresemme-blog/blog',
+	    link: 'https://www.facebook.com/TRESemmePR/app_608554245890583',
 	    picture: pic,
 	    name: name,
-	    caption: 'Clear Hair PR',
+	    caption: 'Tresemmé Blog',
 	    description: desc
 	  };
 	} else {
 	  var obj = {
 	    method: method,
 	    display: 'popup',
-	    redirect_uri: 'https://webappcloud.net/apps/clear/quiz',
-	    link: 'https://www.facebook.com/pages/Clear-Hair-PR/272720309524227?sk=app_446655105415466',
+	    redirect_uri: 'http://dsocialcrowd.com/socialpromos4/tresemme-blog/blog',
+	    link: 'https://www.facebook.com/TRESemmePR/app_608554245890583',
 	    picture: pic,
 	    name: name,
-	    caption: 'Clear Hair PR',
+	    caption: 'Tresemmé Blog',
 	    description: desc
 	  };
 	} 

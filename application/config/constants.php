@@ -42,9 +42,9 @@ define('FOPEN_READ_WRITE_CREATE_STRICT', 'x+b');
 
 // Custom Constants
 
-define('SITE_NAME', "Clear");
+define('SITE_NAME', "Tresemme Blog");
 define('SITE_URL', 'http://localhost/projects/tresemme-blog');
-define('ENCRYPTION_KEY', 'cl34r');
+define('ENCRYPTION_KEY', 'tr3s3mm3');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

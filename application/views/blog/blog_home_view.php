@@ -14,7 +14,7 @@
 		<script type=”text/javascript”>
 			FB.init(
 							{
-								appId: '446655105415466',
+								appId: '608554245890583',
 								Status: true,
 								Cookie: true,
 								Xfbml: true
@@ -55,7 +55,7 @@
 					return;
 				js = d.createElement(s);
 				js.id = id;
-				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=446655105415466";
+				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=608554245890583";
 				fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container" id="home">
@@ -66,7 +66,7 @@
 			</div>
 			<div id="invita">
 				INVITA A<br> TUS AMIGAS<br>
-				<?= anchor('#', img(array('src' => 'public/img/blog/facebook.png', 'alt' => 'Facebook',)), 'class="fb_share" data-picture="/socialpromos3/public/img/blog/fb-blog.jpg" data-caption="¡Conoce las últimas tendencias en Clear Style Trends! " data-description="Ponte al día con nuevas maneras de vestir, maquillarte y disfrutar tu fin de semana. Sigue a nuestra bloguera invitada todos los lunes, miércoles y viernes en Clear Style Trends."') ?>
+				<?= anchor('#', img(array('src' => 'public/img/blog/facebook.png', 'alt' => 'Facebook',)), 'class="fb_share" data-picture="http://dsocialcrowd.com/socialpromos4/tresemme-blog/public/img/blog/fb-blog.jpg" data-caption="¡Conoce las últimas tendencias en Clear Style Trends! " data-description="Ponte al día con nuevas maneras de vestir, maquillarte y disfrutar tu fin de semana. Sigue a nuestra bloguera invitada todos los lunes, miércoles y viernes en Clear Style Trends."') ?>
 				<?php /*= anchor('https://twitter.com/intent/tweet?text=' . $twitter, img(array('src' => 'public/img/blog/twitter.png', 'alt' => 'Twitter')), 'target="_blank"') */?>
 			</div>
 		</div>	

@@ -14,7 +14,7 @@
 		<script type=”text/javascript”>
 			FB.init(
 							{
-								appId: '446655105415466',
+								appId: '608554245890583',
 								Status: true,
 								Cookie: true,
 								Xfbml: true
@@ -54,10 +54,11 @@
 					return;
 				js = d.createElement(s);
 				js.id = id;
-				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=446655105415466";
+				js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=608554245890583";
 				fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container" id="blog">
+			<a class="inicioButton" href="<?php echo site_url('blog') ?>">Inicio</a>
 			<div id="menu">				
 				<?= anchor('blog/moda', img(array('src' => 'public/img/blog/m1.png', 'alt' => '')) . '<br>OBTÉN EL LOOK', 'class="'.$moda_class.'"') ?>
 				<?= anchor('blog/belleza', img(array('src' => 'public/img/blog/m2.png', 'alt' => '')) . '<br>ÚLTIMAS TENDENCIAS', 'class="'.$belleza_class.'"') ?>
@@ -82,7 +83,7 @@
 					</div>
 					<div id="share">
 						COMPARTE<br>
-						<?= anchor('#', img(array('src' => 'public/img/blog/facebook.png', 'alt' => '')), 'class="fb_share" data-picture="https://webappcloud.net' . get_image($content->post_content) . '" data-caption="' . $content->post_title . '" data-description="' . substr(strip_tags($content->post_content), 0, 200) . '..."') ?>
+						<?= anchor('#', img(array('src' => 'public/img/blog/facebook.png', 'alt' => '')), 'class="fb_share" data-picture="http://dsocialcrowd.com/socialpromos4/tresemme-blog/public/img/blog/fb-blog.jpg" data-caption="' . $content->post_title . '" data-description="' . substr(strip_tags($content->post_content), 0, 200) . '..."') ?>
 					</div>
 				</div>
 				<div class="archivo">
@@ -92,6 +93,7 @@
 <?php } ?>
 				</div>
 			</div>
+			<a class="policyPrivacy" href="http://www.unileverprivacypolicy.com/spanish/policy.aspx" target="_blank">Políticas de Privacidad</a>
 		</div>	
 	</div>
 </body>

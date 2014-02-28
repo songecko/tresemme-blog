@@ -57,14 +57,14 @@ class Blog extends CI_Controller {
 
 		$d['twitter'] = urlencode(str_replace("\t","",html_entity_decode(strip_tags('Conoce las últimas tendencias en Clear Style Trends #Moda #ClearHairCare'),ENT_QUOTES,'UTF-8')));
 	
-		if ($this->uri->segment(4)=="link")
+		/*if ($this->uri->segment(4)=="link")
 		{
 			$this->load->view('blog/blog_link_view',$d);
 		}
 		else
-		{
+		{*/
 			$this->load->view('blog/blog_view',$d);
-		}
+		//}
 
 	}
 
@@ -83,14 +83,14 @@ class Blog extends CI_Controller {
 
 		$d['twitter'] = urlencode(str_replace("\t","",html_entity_decode(strip_tags('Conoce las últimas tendencias en Clear Style Trends #Belleza #ClearHairCare'),ENT_QUOTES,'UTF-8')));
 
-		if ($this->uri->segment(4)=="link")
+		/*if ($this->uri->segment(4)=="link")
 		{
 			$this->load->view('blog/blog_link_view',$d);
 		}
 		else
-		{
+		{*/
 			$this->load->view('blog/blog_view',$d);
-		}
+		//}
 	}
 	
 	public function findesemana()
@@ -109,14 +109,14 @@ class Blog extends CI_Controller {
 
 		$d['twitter'] = urlencode(str_replace("\t","",html_entity_decode(strip_tags('Conoce las últimas tendencias en Clear Style Trends #Weekend #ClearHairCare'),ENT_QUOTES,'UTF-8')));
 
-		if ($this->uri->segment(4)=="link")
+		/*if ($this->uri->segment(4)=="link")
 		{
 			$this->load->view('blog/blog_link_view',$d);
 		}
 		else
-		{
+		{*/
 			$this->load->view('blog/blog_view',$d);
-		}
+		//}
 	}
 }
 
