@@ -25,24 +25,6 @@
 				FB.Canvas.setAutoGrow();
 			}
 		</script>
-		<script type="text/javascript">
-
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-271657-19']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script');
-				ga.type = 'text/javascript';
-				ga.async = true;
-				ga.src = ('https:'
-								== document.location.protocol ? 'https://ssl' : 'http://www')
-								+ '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(ga, s);
-			})();
-
-		</script>
 	</head>
 	<body onload="FB.Canvas.setSize({
 					width: 810,
@@ -66,10 +48,20 @@
 			</div>
 			<div id="invita">
 				INVITA A<br> TUS AMIGAS<br>
-				<?= anchor('#', img(array('src' => 'public/img/blog/facebook.png', 'alt' => 'Facebook',)), 'class="fb_share" data-picture="http://dsocialcrowd.com/socialpromos4/tresemme-blog/public/img/blog/fb-blog.jpg" data-caption="¡Conoce las últimas tendencias en Clear Style Trends! " data-description="Ponte al día con nuevas maneras de vestir, maquillarte y disfrutar tu fin de semana. Sigue a nuestra bloguera invitada todos los lunes, miércoles y viernes en Clear Style Trends."') ?>
+				<?= anchor('#', img(array('src' => 'public/img/blog/facebook.png', 'alt' => 'Facebook',)), 'class="fb_share" data-picture="http://dsocialcrowd.com/socialpromos4/tresemme-blog/public/img/blog/fb-blog.jpg" data-caption="TRESemmé vuelve a ponerte al día con lo último para que tú y tu cabello se luzcan en el fin de semana." data-description="Los peinados que te ponen a la moda tienen su secreto a voces. Descúbrelo, mira todo lo que pasa, chequea las fotos. ¡Tenemos los mejores looks y los consejos para obtenerlos!"') ?>
 				<?php /*= anchor('https://twitter.com/intent/tweet?text=' . $twitter, img(array('src' => 'public/img/blog/twitter.png', 'alt' => 'Twitter')), 'target="_blank"') */?>
 			</div>
+			<a class="policyPrivacy" href="http://www.unileverprivacypolicy.com/spanish/policy.aspx" target="_blank">Política de Privacidad</a>
 		</div>	
 	</div>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-48634288-1', 'tresemmepr.com');
+	  ga('send', 'pageview');
+	</script>
 </body>
 </html>

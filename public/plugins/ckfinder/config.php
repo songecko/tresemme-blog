@@ -53,7 +53,7 @@ Examples:
 
 ATTENTION: The trailing slash is required.
 */
-$baseUrl = '/socialpromos3/public/uploads/';
+$baseUrl = '/projects/tresemme-blog/public/uploads/';
 
 /*
 $baseDir : the path to the local directory (in the server) which points to the

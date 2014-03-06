@@ -66,13 +66,13 @@ class Men extends CI_Controller {
 
 		switch ($id) {
 			case "1":
-				$d['prev'] = "/socialpromos3/men/m";
-				$d['next'] = "/socialpromos3/men/products/4";
+				$d['prev'] = "/men/m";
+				$d['next'] = "/men/products/4";
 				$start = 0;
 				break;
 			case "4":
-				$d['prev'] = "/socialpromos3/men/products/4";
-				$d['next'] = "/socialpromos3/men/m";
+				$d['prev'] = "/men/products/4";
+				$d['next'] = "/men/m";
 				$start = 3;
 				break;
 		}

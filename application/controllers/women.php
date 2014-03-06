@@ -64,19 +64,19 @@ class Women extends CI_Controller {
 
 		switch ($id) {
 			case "1":
-				$d['prev'] = "/socialpromos3/women/m";
-				$d['next'] = "/socialpromos3/women/products/4";
+				$d['prev'] = "/women/m";
+				$d['next'] = "/women/products/4";
 				$start = 0;
 				break;
 			case "4":
-				$d['prev'] = "/socialpromos3/women/products/4";
-				$d['next'] = "/socialpromos3/women/products/7";
+				$d['prev'] = "/women/products/4";
+				$d['next'] = "/women/products/7";
 
 				$start = 3;
 				break;
 			case "7":
-				$d['prev'] = "/socialpromos3/women/products/4";
-				$d['next'] = "/socialpromos3/women/m";
+				$d['prev'] = "/women/products/4";
+				$d['next'] = "/women/m";
 				$start = 6;
 				break;
 		}

@@ -87,7 +87,7 @@ class Pages extends CI_Controller {
 		$d = form_open($this->url . '/save');
 		$d .= form_input("Page", "page", $r->page);
 		$d .= form_input("URL", "url", $r->url);
-		$d .= form_htmlarea("Content", "page_content", $r->page_content, "/socialpromos3");
+		$d .= form_htmlarea("Content", "page_content", $r->page_content, "/");
 		$d .= form_hidden("id", $r->id);
 		$d .= "<div class='form-actions'>";
 		$d .= form_submit("Save", "btn btn-primary");

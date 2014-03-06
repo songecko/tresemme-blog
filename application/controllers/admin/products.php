@@ -109,9 +109,9 @@ class Products extends CI_Controller {
 //		$d .= form_input("Related products IDs (comma separated)", "related",$r->related);
 //		$d .= form_upload("Picture", "userfile");
 		$d .= form_input("Position", "position", $r->position);
-		$d .= form_htmlarea("Summary", "summary", $r->summary, "/socialpromos3", 200);
-		$d .= form_htmlarea("Description", "description", $r->description, "/socialpromos3", 500);
-		$d .= form_htmlarea("Facebook", "facebook", $r->facebook, "/socialpromos3", 200);
+		$d .= form_htmlarea("Summary", "summary", $r->summary, "/", 200);
+		$d .= form_htmlarea("Description", "description", $r->description, "/", 500);
+		$d .= form_htmlarea("Facebook", "facebook", $r->facebook, "/", 200);
 		$d .= form_hidden("id", $r->id);
 		$d .= "<div class='form-actions'>";
 		$d .= form_submit("Save", "btn btn-primary");

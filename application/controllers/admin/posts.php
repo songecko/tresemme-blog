@@ -91,7 +91,7 @@ class Posts extends CI_Controller {
 		$d .= form_input("Title", "post_title", $r->post_title, "span8");
 		$d .= form_dropdown("Category", "category_id", $categories, $r->category_id);
 		$d .= form_input("Date", "post_dt", date("m-d-Y", strtotime($r->post_dt)));
-		$d .= form_htmlarea("Content", "post_content", $r->post_content, "/socialpromos3");
+		$d .= form_htmlarea("Content", "post_content", $r->post_content, "/");
 		$d .= form_hidden("id", $r->id);
 		$d .= "<div class='form-actions'>";
 		$d .= form_submit("Save", "btn btn-primary");
