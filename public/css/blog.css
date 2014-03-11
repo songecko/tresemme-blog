@@ -57,6 +57,13 @@ opacity: 0.6;
 	left: 118px;
 	top: 14px;
 }
+.newsfeedButton {
+	position: absolute;
+	left: 16px;
+	top: 4px;
+	width: 90px;
+	height: 32px;
+}
 .policyPrivacy {
 	font-family: 'gothambookregular';
 	font-size: 14px;

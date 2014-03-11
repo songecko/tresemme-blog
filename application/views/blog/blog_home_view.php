@@ -41,6 +41,7 @@
 				fjs.parentNode.insertBefore(js, fjs);
 			}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="container" id="home">
+			<a class="newsfeedButton" href="https://www.facebook.com/TRESemmePR">&nbsp;</a>
 			<div id="menu">
 				<?= anchor('blog/moda', img(array('src' => 'public/img/blog/m1.png', 'alt' => '')) . '<br>OBTÉN EL LOOK', '') ?>
 				<?= anchor('blog/belleza', img(array('src' => 'public/img/blog/m2.png', 'alt' => '')) . '<br>ÚLTIMAS TENDENCIAS', '') ?>
